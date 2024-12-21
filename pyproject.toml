@@ -5,6 +5,8 @@ description = "uv Starter Project"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "ollama>=0.4.4",
+    "pydantic-ai-slim[openai]>=0.0.14",
     "ruff>=0.8.4",
 ]
 
